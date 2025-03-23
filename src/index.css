@@ -551,6 +551,10 @@ h2 {
   padding-left: 5px;
 }
 
+.check__found{
+  color: black !important;
+}
+
 .nav {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -586,7 +590,7 @@ h2 {
 }
 
 .nav__link {
-  color: #909090;
+  color: black;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
