@@ -551,10 +551,6 @@ h2 {
   padding-left: 5px;
 }
 
-.check__found span{
-  color: black !important;
-}
-
 .nav {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
