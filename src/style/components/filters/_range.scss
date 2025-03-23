@@ -41,18 +41,19 @@
   }
 
   input[type='range']::-webkit-slider-thumb {
-    height: 22px;
-    width: 22px;
+    height: 32px;
+    width: 32px;
     border-radius: 8px;
     background: variables.$green-medium;
     pointer-events: auto;
     -webkit-appearance: none;
     cursor: pointer;
+    touch-action: manipulation;
   }
 }
 
 .slider {
-  height: 20px;
+  height: 24px;
   position: relative;
   background: variables.$grey-light;
   border-radius: 6px;
