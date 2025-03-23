@@ -551,7 +551,7 @@ h2 {
   padding-left: 5px;
 }
 
-.check__found{
+.check__found span{
   color: black !important;
 }
 

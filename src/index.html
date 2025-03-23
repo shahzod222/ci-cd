@@ -188,9 +188,11 @@
             <div class="range__slider slider">
               <div class="slider__progress"></div>
             </div>
-            <div class="range__range-input">
-              <input type="range" class="range-min" min="1" max="100" value="1" step="1">
-              <input type="range" class="range-max" min="1" max="100" value="100" step="1">
+           <div class="range__range-input">               
+              <label for="range-min-price">Minimum Price:</label>
+              <input type="range" id="range-min-price" class="range-min" min="1" max="100" value="1" step="1">
+              <label for="range-max-price">Maximum Price:</label>
+              <input type="range" id="range-max-price" class="range-max" min="1" max="100" value="100" step="1">
             </div>
           </div>
         </div>
@@ -207,18 +209,20 @@
           <h2 class="filter__title">Stock</h2>
           <div class="range">
             <div class="range__value">
-              <span>min</span>
-              <input type="number" class="input-min" value="1" max="65" min="1">
+              <label for="min-stock">min</label>
+              <input type="number" class="input-min" value="1" max="65" min="1" id="min-stock">
               <div class="range__separator">-</div>
-              <span>max</span>
-              <input type="number" class="input-max" value="65" max="65" min="1">
+              <label for="max-stock">max</label>
+              <input type="number" class="input-max" value="65" max="65" min="1" id="max-stock">
             </div>
             <div class="range__slider slider">
               <div class="slider__progress"></div>
             </div>
             <div class="range__range-input">
-              <input type="range" class="range-min" min="1" max="69" value="1" step="1">
-              <input type="range" class="range-max" min="1" max="65" value="65" step="1">
+               <label for="range-min-stock">Minimum Stock:</label>
+              <input type="range" class="range-min" id="range-min-stock" min="1" max="65" value="1" step="1">
+               <label for="range-max-stock">Maximum Stock:</label>
+              <input type="range" class="range-max" id="range-max-stock" min="1" max="65" value="65" step="1">
             </div>
           </div>
         </div>
