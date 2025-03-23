@@ -7,8 +7,8 @@
 .footer {
   width: 100%;
   position: relative;
-  background-color: variables.$grey-light;
-  color: variables.$white-medium;
+  background-color: variables.$white-medium;
+  color: variables.$black;
 }
 
 .footer__container {
@@ -30,5 +30,5 @@
 }
 
 .footer__item a {
-  color: variables.$white-medium;
+  color: variables.$black;
 }
