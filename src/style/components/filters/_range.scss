@@ -11,13 +11,14 @@
     margin: 25px 0 35px;
 
     input {
-      width: 50px;
-      height: 40px;
+      width: 60px; /* Increased width for better accessibility */
+      height: 44px; /* Increased height for better accessibility */
       font-size: 20px;
       border-radius: 5px;
       text-align: center;
       border: 1px solid variables.$grey-light;
       outline: none;
+      margin: 0 10px; /* Added margin for spacing */
     }
   }
 
@@ -31,8 +32,8 @@
     input {
       position: absolute;
       width: 100%;
-      height: 6px;
-      top: -6px;
+      height: 30px;
+      top: -20px;
       background: none;
       pointer-events: none;
       appearance: none;
@@ -41,18 +42,19 @@
   }
 
   input[type='range']::-webkit-slider-thumb {
-    height: 16px;
-    width: 16px;
+    height: 40px;
+    width: 40px;
     border-radius: 8px;
     background: variables.$green-medium;
     pointer-events: auto;
     -webkit-appearance: none;
     cursor: pointer;
+    touch-action: manipulation;
   }
 }
 
 .slider {
-  height: 6px;
+  height: 30px;
   position: relative;
   background: variables.$grey-light;
   border-radius: 6px;

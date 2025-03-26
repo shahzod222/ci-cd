@@ -41,7 +41,7 @@
   }
 
   &__discount {
-    background-color: variables.$purple-medium;
+    background-color: variables.$black;
 
     span {
       color: variables.$purple-light;
@@ -60,7 +60,7 @@
   }
 
   &__type {
-    color: variables.$green-extra-light;
+    color: variables.$black;
   }
 
   &__title {
@@ -91,7 +91,7 @@
   &__stock {
     margin-top: 5px;
     margin-right: 10px;
-    color: variables.$green-extra-light;
+    color: variables.$black;
     font-size: 0.8em;
     text-align: right;
   }
